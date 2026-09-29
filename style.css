@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    height: 500px;
+}
+
+.cell {
+    border: 1px solid black;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
